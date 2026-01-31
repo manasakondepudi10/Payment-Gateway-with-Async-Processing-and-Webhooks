@@ -138,22 +138,34 @@ POST /api/v1/payments
 - Returns immediately with `PENDING` status
 
 ### Capture Payment
+```
 POST /api/v1/payments/{payment_id}/capture
+```
 
 ### Create Refund
+```
 POST /api/v1/payments/{payment_id}/refunds
+```
 
 ### Get Refund
+```
 GET /api/v1/refunds/{refund_id}
+```
 
 ### Webhook Logs
+```
 GET /api/v1/webhooks
+```
 
 ### Retry Webhook
+```
 POST /api/v1/webhooks/{webhook_id}/retry
+```
 
 ### Job Queue Status (Testing)
+```
 GET /api/v1/test/jobs/status
+```
 
 ---
 
