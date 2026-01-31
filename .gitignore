@@ -1,0 +1,18 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log
+
+# build outputs
+dist/
+build/
+coverage/
+
+# environment
+.env
+.env.local
+
+# editor
+.vscode/
+.DS_Store
